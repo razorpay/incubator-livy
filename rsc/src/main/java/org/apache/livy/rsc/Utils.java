@@ -94,7 +94,7 @@ public class Utils {
 
   public static String stackTraceAsString(Throwable t) {
     StringWriter stringWriter = new StringWriter();
-    t.printStackTrace(new PrintWriter(stringWriter));
+    
     return stringWriter.toString();
   }
 
